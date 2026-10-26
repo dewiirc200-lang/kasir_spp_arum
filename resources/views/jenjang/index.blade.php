@@ -83,7 +83,7 @@
                                     class="btn btn-info btn-sm"
                                     title="Detail"
                                 >
-                                    <i class="fas fa-eye"></i>
+                                    <i class="bi bi-eye"></i>
                                 </a>
 
                                 {{-- Tombol Edit --}}
@@ -92,7 +92,7 @@
                                     class="btn btn-warning btn-sm"
                                     title="Edit"
                                 >
-                                    <i class="fas fa-edit"></i>
+                                    <i class="bi bi-pencil-square"></i>
                                 </a>
 
                                 {{-- Tombol Hapus --}}
@@ -110,7 +110,7 @@
                                         class="btn btn-danger btn-sm"
                                         title="Hapus"
                                     >
-                                        <i class="fas fa-trash"></i>
+                                        <i class="bi bi-trash"></i>
                                     </button>
                                 </form>
 
