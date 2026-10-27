@@ -77,14 +77,14 @@
                             <a class="btn btn-info btn-sm"
                                 href="{{ route('kelas.show', $kelas->id) }}"
                                 title="Lihat">
-                                <i class="fas fa-eye"></i>
+                                <i class="bi bi-eye"></i>
                             </a>
 
                             {{-- Tombol Edit --}}
                             <a href="{{ route('kelas.edit', $kelas->id) }}"
                                 class="btn btn-warning btn-sm"
                                 title="Edit">
-                                <i class="fas fa-edit"></i>
+                                <i class="bi bi-pencil-square"></i>
                             </a>
 
                             {{-- Tombol Hapus --}}
@@ -96,7 +96,7 @@
                                 <button type="submit" class="btn btn-danger btn-sm"
                                     onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')"
                                     title="Hapus">
-                                    <i class="fas fa-trash"></i>
+                                    <i class="bi bi-trash"></i>
                                 </button>
                             </form>
                         </td>
