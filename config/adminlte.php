@@ -815,6 +815,14 @@ return [
             'label_color' => 'success',
         ],
 
+         [
+            'text' => 'siswa',
+            'url' => 'siswa',
+            'icon' => 'bi bi-person-badge-fill',
+            'label' => 4,
+            'label_color' => 'success',
+        ],
+
 
 
         ['header' => 'account_settings'],
